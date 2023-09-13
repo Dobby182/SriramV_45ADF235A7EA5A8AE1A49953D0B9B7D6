@@ -28,6 +28,8 @@ my_account.deposit(500)
 
 # Withdrawing money
 my_account.withdraw(200)
+#Withdrawing attempt but exceeds balance
+my_account.withdraw(2000)
 
 # Displaying the account balance
 print(my_account.display_balance())
